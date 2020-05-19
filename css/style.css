@@ -63,10 +63,12 @@ header {
 
 header a {
  text-decoration: none;
+ color: black;
 }
 
 header li {
   display: inline-block;
+  padding: 0 10px;
 }
 
 .navdx {
@@ -78,6 +80,10 @@ header li {
 }
 
 /* menu fisso */
+
+#menufixed i:last-of-type {
+  color:  #00bda5;
+}
 
 #menufixed {
   position: fixed;
