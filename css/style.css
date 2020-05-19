@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole generali pagina */
+
+.centratura {
+  padding: 0 20%;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+.textsmall {
+  display: block;
+  font-size: 15px;
+}
+
+.textgeneral {
+  font-family: sans-serif;
+  font-size: 1em;
+  /* color: black; */
+}
+
+.button1 {
+  padding: 13px 13px;
+  background-color: #e66e50;
+  color: white;
+  border-radius: 5px;
+}
+
+.button2 {
+  padding: 13px 13px;
+  background-color: transparent;
+  color: #e66e50;
+  border-radius: 5px;
+  border: 1px solid #e66e50;
+}
+
+
+
+/* header */
+
+header {
+  min-height: 800px;
+  width: 100%;
+  background-image: url("../img/jumbotron.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+/* header elementi */
+
+header a {
+ text-decoration: none;
+}
+
+header li {
+  display: inline-block;
+}
+
+.navdx {
+  text-align: right;
+}
+
+.navsx {
+  text-align: left;
+}
+
+/* menu fisso */
+
+#menufixed {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #f4f9fd;
+}
+
+#menufixed .col-1, #menufixed .col-2 {
+  width: 50%;
+}
+
+/* menu top */
+
+#menutop {
+  margin-top: 60px;
+  z-index: 999;
+  height: 60px;
+  line-height: 60px;
+  top: 0;
+  left: 0;
+  background-color: #f4f9fd;
+}
+
+#menutop .col-1 {
+  width: 15%;
+}
+#menutop .col-2 {
+  width: 85%;
+}
+/* jumbo */
+
+#jumbo {
+  height: 100%;
+  margin: 60px 0;
+}
+
+/* parte contenuto */
+
+#sez-info {
+  background-color: #f5f8fa;
+  padding top: 30px;
+  padding-bottom: 30px;
+}
+
+#subsez-crm .col-1 {
+  width: 20%;
+  background-color: pink;
+}
+#subsez-crm .col-2 {
+  width: 80%;
+  background-color: blue;
+}
+
+#subsez-hubs .col-1 {
+  width: 30%;
+  background-color: blue;
+  border: solid 1px #000;
+}
+#subsez-hubs .col-2 {
+  margin: 0 5%;
+  background-color: yellow;
+  width: 30%;
+  border: solid 1px #000;
+
+}
+
+.blocco-sez-info {
+  background-color: red;
+  border-radius: 20px;
+}
+
+
+/* debug generale */
+
+header {
+  /* background-color: red */
+}
+header div {
+  /* height: 100px; */
+  /* background-color: yellow; */
+  /* border: solid 1px #000; */
+  /* margin-bottom: 10px; */
+}
+
+#sez-info div {
+  height: 100px;
+  /* background-color: lightgrey; */
+  margin-bottom: 20px;
+}
